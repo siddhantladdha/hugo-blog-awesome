@@ -8,7 +8,7 @@
 </div>
 <h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
 
-<h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
+<h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design | 🧛 Dracula Theme Support</h4>
 
 ## Screenshots
 
@@ -287,6 +287,7 @@ Thanks to [piharpi](https://harpi.me/) for creating the [Jekyll klise theme](htt
 ## License
 
 This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE).
+<a href="https://www.flaticon.com/free-icons/dracula" title="dracula icons">Dracula icons created by Freepik - Flaticon</a>
 
 ## Stats
 
