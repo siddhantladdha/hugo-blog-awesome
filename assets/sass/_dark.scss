@@ -89,7 +89,45 @@
     border-radius: 2px;
     border: 1px solid rgba(40, 42, 54, 0.1);
   }
+// Codeblock Theme
+pre {
+  background-color: #0E0D11; //picked from draculatheme.com
+  border-radius: .3rem;
+  padding: .5rem 1rem;
+  display: block;
+  overflow-x: auto;
 
+  @include media-query($on-mobile) {
+    margin: 0 calc(51% - 51vw);
+  }
+
+  // Configure scrollbars for code blocks
+  &::-webkit-scrollbar {
+    height: .5rem;
+  }
+  // Set scrollbar background, track and thumb colors
+  &::-webkit-scrollbar-track {
+    background: #606071;
+    border-radius: .1rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #999ea2;
+    border-radius: .3rem;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #424546;
+  }
+
+  > code {
+    color: $dracula-fg;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    display: block;
+    border: 0;
+  }
+}
   // kbd tag
   kbd {
     color: $dark-inline-code-text;
