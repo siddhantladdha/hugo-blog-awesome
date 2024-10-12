@@ -82,7 +82,7 @@ To create a new Hugo site with this theme as Git submodule, run the following co
 Then, clone this repository into the `themes` directory of your new site:
 
     cd myblog
-    git clone https://github.com/siddhantladdha/hugo-blog-awesome.git themes/hugo-blog-awesome
+    git submodule add https://github.com/siddhantladdha/hugo-blog-awesome themes/hugo-blog-awesome
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
