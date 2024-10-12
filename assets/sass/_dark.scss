@@ -5,13 +5,19 @@
   }
 
   // Headings
-  h1,
-  h2,
-  h3,
+  h1 {
+    color: $dracula-pink;
+  }
+  h2 {
+    color: $dracula-green;
+  }
+  h3 {
+    color: $dracula-yellow;
+  }
   h4,
   h5,
   h6 {
-    color: $dark-white;
+    color: $dracula-pink;
   }
 
   // Table
@@ -81,7 +87,7 @@
     color: $dark-inline-code-text;
     background-color: $dark-inline-code-bg;
     border-radius: 2px;
-    border: 1px solid rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(40, 42, 54, 0.1);
   }
 
   // kbd tag
@@ -120,7 +126,7 @@
     }
 
     &:focus {
-      outline-color: rgba(44, 118, 246, 0.6);
+      outline-color: rgba($dracula-red, 0.6);
     }
   }
 
@@ -271,6 +277,13 @@
       }
     }
   }
+
+  mark {
+    background: $dracula-yellow;
+    color: $dracula-bg;
+    border-radius: 3px;
+  }
+
 }
 
 // support JS disabled environment with media query
