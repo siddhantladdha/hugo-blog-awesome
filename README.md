@@ -28,7 +28,7 @@ The result shown above was last confirmed on September 23, 2023. You can check t
 ## Features
 
 - Minimal design
-- Light and dark mode
+- Light and dark mode (Dracula Colorscheme)
 - Syntax highlighting
 - RSS feed
 - No jQuery, no Bootstrap
@@ -42,7 +42,7 @@ Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?ur
 
 Its focus on minimalism and clean UI ensures that your content takes the spotlight. This, coupled with the support for dark mode, provides a stress-free (on the eyes) reading experience for your audience.
 
-Built with Hugo, SCSS, and vanilla JavaScript.
+Built with Hugo, SCSS, and vanilla JavaScript. And I am trying to make this beautiful theme more beautiful with the Dracula Colorscheme.
 
 ## Setup
 
@@ -61,13 +61,13 @@ Initialize your new Hugo site as hugo module by running the following command:
 
 Afterwards, run this command to add hugo-blog-awesome as module to your site:
 
-    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+    hugo mod get github.com/siddhantladdha/hugo-blog-awesome
 
 To make use of the theme, add this module configuration to your site's `hugo.toml`:
 
     [module]
       [[module.imports]]
-        path = "github.com/hugo-sid/hugo-blog-awesome"
+        path = "github.com/siddhantladdha/hugo-blog-awesome"
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
