@@ -99,7 +99,7 @@ It is recommended that you copy the `hugo.toml` file from the `exampleSite` dire
 
 ### Adding favicon
 
-I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `assets\icons` folder. That should get your favicon working.
+I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `assets\icons` folder. That should get your favicon working. Make sure to match the directory pattern and filenames of `\themes\hugo-blog-awesome\assets\icons` with your custom `assets\icons`. You might need to refresh cache to view changes. [Source](https://stackoverflow.com/questions/6180343/firefox-doesnt-show-favicon)
 
 If you want to customize anything further, you can modify `layouts\partials\head.html`.
 
